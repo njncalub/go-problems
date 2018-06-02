@@ -4,4 +4,4 @@ My [exercism.io](exercism.io) solutions for Go.
 
 # Problems
 
-- [ ] [gigasecond](gigasecond)
+- [X] [gigasecond](gigasecond)
