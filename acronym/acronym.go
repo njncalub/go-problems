@@ -1,15 +1,22 @@
-// This is a "stub" file.  It's a little start on your solution.
-// It's not a complete solution though; you have to write some code.
-
-// Package acronym should have a package comment that summarizes what it's about.
-// https://golang.org/doc/effective_go.html#commentary
+// Package acronym converts a phrase to its acronym.
 package acronym
 
-// Abbreviate should have a comment documenting it.
+import (
+	"strings"
+	"unicode"
+)
+
+// checkSeparator takes a rune character and checks if it should be used as a
+// separator when splitting a string.
+func checkSeparator(c rune) bool {
+	return !unicode.IsLetter(c) && !unicode.IsNumber(c)
+}
+
+// Abbreviate takes a string and returns it in uppercased acronym format.
 func Abbreviate(s string) string {
-	// Write some code here to pass the test suite.
-	// Then remove all the stock comments.
-	// They're here to help you get started but they only clutter a finished solution.
-	// If you leave them in, reviewers may protest!
-	return ""
+	acronym := ""
+	for _, word := range strings.FieldsFunc(s, checkSeparator) {
+		acronym += string(word[0])
+	}
+	return strings.ToUpper(acronym)
 }

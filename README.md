@@ -6,4 +6,4 @@ My [exercism.io](http://exercism.io/) solutions for Go.
 
 - [X] [gigasecond](gigasecond)
 - [X] [bob](bob)
-- [ ] [acronym](acronym)
+- [X] [acronym](acronym)
