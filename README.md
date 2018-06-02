@@ -7,3 +7,4 @@ My [exercism.io](http://exercism.io/) solutions for Go.
 - [X] [gigasecond](gigasecond)
 - [X] [bob](bob)
 - [X] [acronym](acronym)
+- [ ] [space-age](space-age)
