@@ -1,6 +1,6 @@
 # go-problems
 
-My [exercism.io](exercism.io) solutions for Go.
+My [exercism.io](http://exercism.io/) solutions for Go.
 
 # Problems
 
