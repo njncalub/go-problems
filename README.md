@@ -4,7 +4,7 @@ My [exercism.io](http://exercism.io/) solutions for Go.
 
 # Problems
 
-- [ ] [hello-world](hello-world)
+- [X] [hello-world](hello-world)
 - [X] [gigasecond](gigasecond)
 - [X] [bob](bob)
 - [X] [acronym](acronym)
