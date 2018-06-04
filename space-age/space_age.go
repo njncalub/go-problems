@@ -4,37 +4,22 @@ package space
 
 type Planet string
 
-// Define multipliers for different Planets.
-var (
-	EarthYear   float64 = 31557600
-	MercuryYear float64 = 0.2408467 * EarthYear
-	VenusYear   float64 = 0.61519726 * EarthYear
-	MarsYear    float64 = 1.8808158 * EarthYear
-	JupiterYear float64 = 11.862615 * EarthYear
-	SaturnYear  float64 = 29.447498 * EarthYear
-	UranusYear  float64 = 84.016846 * EarthYear
-	NeptuneYear float64 = 164.79132 * EarthYear
-)
+// Define total number of seconds in one Earth year.
+const EarthYear = 31557600
 
-// Age returns your actual age on a specific Planet.
-func Age(seconds float64, planet Planet) (age float64) {
-	switch planet {
-	case "Earth":
-		age = seconds / EarthYear
-	case "Mercury":
-		age = seconds / MercuryYear
-	case "Venus":
-		age = seconds / VenusYear
-	case "Mars":
-		age = seconds / MarsYear
-	case "Jupiter":
-		age = seconds / JupiterYear
-	case "Saturn":
-		age = seconds / SaturnYear
-	case "Uranus":
-		age = seconds / UranusYear
-	case "Neptune":
-		age = seconds / NeptuneYear
-	}
-	return age
+// Define multipliers for different Planets.
+var Seconds = map[Planet]float64{
+	"Earth":   EarthYear * 1.0,
+	"Mercury": EarthYear * 0.2408467,
+	"Venus":   EarthYear * 0.61519726,
+	"Mars":    EarthYear * 1.8808158,
+	"Jupiter": EarthYear * 11.862615,
+	"Saturn":  EarthYear * 29.447498,
+	"Uranus":  EarthYear * 84.016846,
+	"Neptune": EarthYear * 164.79132,
+}
+
+// Age returns someone's actual age on a specific Planet.
+func Age(seconds float64, planet Planet) float64 {
+	return seconds / Seconds[planet]
 }
