@@ -11,7 +11,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 | &#9989; | [Bob](bob)                                             | Bob is a lackadaisical teenager. In conversation, his responses are very limited. |
 | &#9989; | [Acronym](acronym)                                     | Convert a long phrase to its acronym |
 | &#9989; | [Space Age](space-age)                                 | Given an age in seconds, calculate how old someone is in terms of a given planet's solar years. |
-|         | [Two Fer](two-fer)                                     | Create a sentence of the form "One for X, one for me." |
+| &#9989; | [Two Fer](two-fer)                                     | Create a sentence of the form "One for X, one for me." |
 |         | [Hamming](hamming)                                     | Calculate the Hamming difference between two DNA strands. |
 |         | [Raindrops](raindrops)                                 | Convert a number to a string, the contents of which depend on the number's factors. |
 |         | [Scrabble Score](scrabble-score)                       | Given a word, compute the scrabble score for that word. |
