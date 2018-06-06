@@ -2,7 +2,9 @@
 
 My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 
-## Available Problems
+## List of Problems
+
+**Current Tally:** *14/107* problems solved.
 
 | Status  | Problem                                                | Description |
 |:-------:|--------------------------------------------------------|-------------|
