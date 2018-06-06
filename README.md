@@ -4,7 +4,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 
 ## List of Problems
 
-**Current Tally:** *14/107* problems solved.
+**Current Tally:** *15/107* problems solved.
 
 | Status  | Problem                                                | Description |
 |:-------:|--------------------------------------------------------|-------------|
@@ -22,7 +22,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 | &#9989; | [Difference Of Squares](difference-of-squares)         | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers. |
 | &#9989; | [Luhn](luhn)                                           | Given a number determine whether or not it is valid per the Luhn formula. |
 | &#9989; | [Grains](grains)                                       | Calculate the number of grains of wheat on a chessboard given that the number on each square doubles. |
-|         | [Clock](clock)                                         | Implement a clock that handles times without dates. |
+| &#9989; | [Clock](clock)                                         | Implement a clock that handles times without dates. |
 |         | [Parallel Letter Frequency](parallel-letter-frequency) | Count the frequency of letters in texts using parallel computation. |
 |         | [Tree Building](tree-building)                         | Refactor a tree building algorithm. |
 |         | [Robot Name](robot-name)                               | Manage robot factory settings. |
