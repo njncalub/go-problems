@@ -17,7 +17,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 | &#9989; | [Scrabble Score](scrabble-score)                       | Given a word, compute the scrabble score for that word. |
 | &#9989; | [Isogram](isogram)                                     | Determine if a word or phrase is an isogram. |
 | &#9989; | [Reverse String](reverse-string)                       | Reverse a string |
-|         | [Difference Of Squares](difference-of-squares)         | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers. |
+| &#9989; | [Difference Of Squares](difference-of-squares)         | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers. |
 |         | [Luhn](luhn)                                           | Given a number determine whether or not it is valid per the Luhn formula. |
 |         | [Grains](grains)                                       | Calculate the number of grains of wheat on a chessboard given that the number on each square doubles. |
 |         | [Clock](clock)                                         | Implement a clock that handles times without dates. |
