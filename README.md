@@ -15,7 +15,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 | &#9989; | [Hamming](hamming)                                     | Calculate the Hamming difference between two DNA strands. |
 | &#9989; | [Raindrops](raindrops)                                 | Convert a number to a string, the contents of which depend on the number's factors. |
 | &#9989; | [Scrabble Score](scrabble-score)                       | Given a word, compute the scrabble score for that word. |
-|         | [Isogram](isogram)                                     | Determine if a word or phrase is an isogram. |
+| &#9989; | [Isogram](isogram)                                     | Determine if a word or phrase is an isogram. |
 |         | [Reverse String](reverse-string)                       | Reverse a string |
 |         | [Difference Of Squares](difference-of-squares)         | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers. |
 |         | [Luhn](luhn)                                           | Given a number determine whether or not it is valid per the Luhn formula. |
