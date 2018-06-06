@@ -19,7 +19,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 | &#9989; | [Reverse String](reverse-string)                       | Reverse a string |
 | &#9989; | [Difference Of Squares](difference-of-squares)         | Find the difference between the square of the sum and the sum of the squares of the first N natural numbers. |
 | &#9989; | [Luhn](luhn)                                           | Given a number determine whether or not it is valid per the Luhn formula. |
-|         | [Grains](grains)                                       | Calculate the number of grains of wheat on a chessboard given that the number on each square doubles. |
+| &#9989; | [Grains](grains)                                       | Calculate the number of grains of wheat on a chessboard given that the number on each square doubles. |
 |         | [Clock](clock)                                         | Implement a clock that handles times without dates. |
 |         | [Parallel Letter Frequency](parallel-letter-frequency) | Count the frequency of letters in texts using parallel computation. |
 |         | [Tree Building](tree-building)                         | Refactor a tree building algorithm. |
