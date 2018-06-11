@@ -44,7 +44,7 @@ My solutions to the [exercism.io](http://exercism.io/) problems for Go.
 |         | [Queen Attack](queen-attack)                           | Given the position of two queens on a chess board, indicate whether or not they are positioned so that they can attack each other. |
 |         | [Etl](etl)                                             | We are going to do the `Transform` step of an Extract-Transform-Load. |
 |         | [Sum Of Multiples](sum-of-multiples)                   | Given a number, find the sum of all the multiples of particular numbers up to but not including that number. |
-|         | [Pythagorean Triplet](pythagorean-triplet)             | There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product a * b * c. |
+|         | [Pythagorean Triplet](pythagorean-triplet)             | There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product a &ast; b &ast; c. |
 |         | [Pangram](pangram)                                     | Determine if a sentence is a pangram. |
 |         | [Crypto Square](crypto-square)                         | Implement the classic method for composing secret messages called a square code. |
 |         | [Food Chain](food-chain)                               | Generate the lyrics of the song 'I Know an Old Lady Who Swallowed a Fly' |
